@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "apple-notes-mcp",
+  "name": "apple-notes-mcp-ames",
   "version": "1.0.0",
   "description": "Apple Notes integration for Claude Code via MCP",
   "owner": {
