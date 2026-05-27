@@ -4,14 +4,14 @@
   "version": "1.0.0",
   "description": "Apple Notes integration for Claude Code via MCP",
   "owner": {
-    "name": "Rob Sweet",
-    "email": "rob@superiortech.io"
+    "name": "Oliver Ames",
+    "email": "oliverames@gmail.com"
   },
   "plugins": [
     {
       "name": "apple-notes",
       "description": "Manage Apple Notes through natural language - create, search, read, update, delete, and organize notes and folders",
-      "version": "1.1.1",
+      "version": "1.4.1",
       "author": {
         "name": "Rob Sweet",
         "email": "rob@superiortech.io"

@@ -1,7 +1,7 @@
 {
   "name": "apple-notes-mcp",
   "version": "1.4.1",
-  "description": "MCP server for Apple Notes - create, search, update, and manage notes via Claude",
+  "description": "MCP server for Apple Notes - create, search, update, and manage notes via Claude and Codex",
   "type": "module",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -43,11 +43,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sweetrb/apple-notes-mcp.git"
+    "url": "git+https://github.com/oliverames/apple-notes-mcp-ames.git"
   },
-  "homepage": "https://github.com/sweetrb/apple-notes-mcp#readme",
+  "homepage": "https://github.com/oliverames/apple-notes-mcp-ames#readme",
   "bugs": {
-    "url": "https://github.com/sweetrb/apple-notes-mcp/issues"
+    "url": "https://github.com/oliverames/apple-notes-mcp-ames/issues"
   },
   "engines": {
     "node": ">=20.0.0"
@@ -56,7 +56,7 @@
     "darwin"
   ],
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.4.1",
+    "@modelcontextprotocol/sdk": "^1.29.0",
     "turndown": "^7.2.2",
     "zod": "^3.22.4"
   },
@@ -65,7 +65,7 @@
     "@types/turndown": "^5.0.6",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
-    "@vitest/coverage-v8": "^2.1.9",
+    "@vitest/coverage-v8": "^3.2.4",
     "eslint": "^9.0.0",
     "globals": "^17.0.0",
     "husky": "^9.1.7",
@@ -75,7 +75,7 @@
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.0.0",
     "typescript-eslint": "^8.51.0",
-    "vitest": "^2.0.0"
+    "vitest": "^3.2.4"
   },
   "volta": {
     "node": "22.13.1"

@@ -3,7 +3,7 @@
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server that enables AI assistants like Claude to read, create, search, and manage notes in Apple Notes on macOS.
 
 [![npm version](https://img.shields.io/npm/v/apple-notes-mcp)](https://www.npmjs.com/package/apple-notes-mcp)
-[![CI](https://github.com/sweetrb/apple-notes-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/sweetrb/apple-notes-mcp/actions/workflows/ci.yml)
+[![CI](https://github.com/oliverames/apple-notes-mcp-ames/actions/workflows/ci.yml/badge.svg)](https://github.com/oliverames/apple-notes-mcp-ames/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## What is This?
@@ -25,7 +25,7 @@ The AI assistant communicates with this server, which then uses AppleScript to i
 If you're using [Claude Code](https://claude.com/product/claude-code) (in Terminal or VS Code), just ask Claude to install it:
 
 ```
-Install the sweetrb/apple-notes-mcp MCP server so you can help me manage my Apple Notes
+Install the oliverames/apple-notes-mcp-ames MCP server so you can help me manage my Apple Notes
 ```
 
 Claude will handle the installation and configuration automatically.
@@ -35,7 +35,7 @@ Claude will handle the installation and configuration automatically.
 Install as a Claude Code plugin for automatic configuration and enhanced AI behavior:
 
 ```bash
-/plugin marketplace add sweetrb/apple-notes-mcp
+/plugin marketplace add oliverames/apple-notes-mcp-ames
 /plugin install apple-notes
 ```
 
@@ -45,7 +45,7 @@ This method also installs a **skill** that teaches Claude when and how to use Ap
 
 **1. Install the server:**
 ```bash
-npm install -g github:sweetrb/apple-notes-mcp
+npm install -g github:oliverames/apple-notes-mcp-ames
 ```
 
 **2. Add to Claude Desktop** (`~/Library/Application Support/Claude/claude_desktop_config.json`):
@@ -54,7 +54,7 @@ npm install -g github:sweetrb/apple-notes-mcp
   "mcpServers": {
     "apple-notes": {
       "command": "npx",
-      "args": ["apple-notes-mcp"]
+      "args": ["-y", "github:oliverames/apple-notes-mcp-ames"]
     }
   }
 }
@@ -688,14 +688,14 @@ AI: [calls create-note with title="Acme Corp", content="...", folder="Work/Clien
 ### npm (Recommended)
 
 ```bash
-npm install -g github:sweetrb/apple-notes-mcp
+npm install -g github:oliverames/apple-notes-mcp-ames
 ```
 
 ### From Source
 
 ```bash
-git clone https://github.com/sweetrb/apple-notes-mcp.git
-cd apple-notes-mcp
+git clone https://github.com/oliverames/apple-notes-mcp-ames.git
+cd apple-notes-mcp-ames
 npm install
 npm run build
 ```

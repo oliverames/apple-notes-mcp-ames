@@ -6,8 +6,8 @@
     "name": "Rob Sweet",
     "email": "rob@superiortech.io"
   },
-  "homepage": "https://github.com/sweetrb/apple-notes-mcp#readme",
-  "repository": "https://github.com/sweetrb/apple-notes-mcp",
+  "homepage": "https://github.com/oliverames/apple-notes-mcp-ames#readme",
+  "repository": "https://github.com/oliverames/apple-notes-mcp-ames",
   "license": "MIT",
   "keywords": [
     "mcp",
@@ -18,7 +18,7 @@
     "notes"
   ],
   "skills": "./skills/",
-  "mcpServers": "./.codex-plugin/mcp.json",
+  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Apple Notes",
     "shortDescription": "Create, search, read, update, and organize Apple Notes.",
@@ -30,7 +30,7 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://github.com/sweetrb/apple-notes-mcp#readme",
+    "websiteURL": "https://github.com/oliverames/apple-notes-mcp-ames#readme",
     "defaultPrompt": [
       "Create a note called Meeting Notes with this summary.",
       "Find my notes about budget planning.",

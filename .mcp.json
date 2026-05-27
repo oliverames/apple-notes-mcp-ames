@@ -2,7 +2,7 @@
   "mcpServers": {
     "apple-notes": {
       "command": "npx",
-      "args": ["apple-notes-mcp"]
+      "args": ["-y", "github:oliverames/apple-notes-mcp-ames"]
     }
   }
 }

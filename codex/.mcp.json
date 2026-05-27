@@ -3,7 +3,8 @@
     "apple-notes": {
       "command": "npx",
       "args": [
-        "apple-notes-mcp"
+        "-y",
+        "github:oliverames/apple-notes-mcp-ames"
       ]
     }
   }
