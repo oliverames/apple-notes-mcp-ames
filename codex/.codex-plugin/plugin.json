@@ -1,6 +1,6 @@
 {
   "name": "apple-notes",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Manage Apple Notes through natural language - create, search, read, update, delete, and organize notes and folders (macOS only)",
   "author": {
     "name": "Rob Sweet",
@@ -39,6 +39,8 @@
     "brandColor": "#f59e0b",
     "composerIcon": "./assets/icon.png",
     "logo": "./assets/icon.png",
-    "screenshots": []
+    "screenshots": [
+      "./assets/screenshot.svg"
+    ]
   }
 }
