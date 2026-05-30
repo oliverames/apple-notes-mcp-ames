@@ -1,6 +1,6 @@
 {
   "name": "apple-notes",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Manage Apple Notes through natural language - create, search, read, update, delete, and organize notes and folders (macOS only)",
   "author": {
     "name": "Rob Sweet",
@@ -36,6 +36,9 @@
       "Find my notes about budget planning.",
       "Move my draft notes into the Archive folder."
     ],
-    "brandColor": "#f59e0b"
+    "brandColor": "#f59e0b",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "screenshots": []
   }
 }

@@ -6,6 +6,7 @@
   "plugins": [
     {
       "name": "apple-notes",
+      "version": "1.4.2",
       "source": {
         "source": "local",
         "path": "./codex"

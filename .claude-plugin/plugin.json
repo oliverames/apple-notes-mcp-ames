@@ -1,9 +1,21 @@
 {
   "name": "apple-notes",
-  "version": "1.4.1",
+  "displayName": "Apple Notes",
+  "version": "1.4.2",
   "description": "Manage Apple Notes through natural language - create, search, read, update, delete, and organize notes and folders (macOS only)",
   "author": {
     "name": "Rob Sweet",
     "email": "rob@superiortech.io"
-  }
+  },
+  "homepage": "https://github.com/oliverames/apple-notes-mcp-ames#readme",
+  "repository": "https://github.com/oliverames/apple-notes-mcp-ames",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "apple-notes",
+    "claude",
+    "codex",
+    "macos",
+    "notes"
+  ]
 }
